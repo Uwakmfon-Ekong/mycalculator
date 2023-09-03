@@ -52,3 +52,15 @@ form input.equal{
 form input.operator{
     color: aqua;
 }
+@media (max-width:600px){
+   .container{
+    width: 100%;
+} 
+.calculator form input{
+    width: 45px;
+    height: 45px;
+}
+form input.equal{
+    width:120px;
+}
+}
